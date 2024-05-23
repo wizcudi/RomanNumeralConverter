@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(32, 29, 29);
+    display: flex;
+    justify-content: center;
+    
+
+}
+.main-div{
+    background-color: whitesmoke;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    
+}
+.instruct{
+    border: solid black 1px;
+    padding: 10px;
+}
+#number{
+    height: 30px;
+}
+#convert-btn{
+    background-color: rgb(61, 74, 219);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    max-width: 400px;
+    font-weight: 700;
+}
+.input-div, #output{
+    width: 60%;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    height: 40px;
+}
+
+@media (max-width: 670px) {
+    body {
+        padding: 40px 10px;
+    }
+    .input-div, #output{
+        width: 100%;
+    }
+}
